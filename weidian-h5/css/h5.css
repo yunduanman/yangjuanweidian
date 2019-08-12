@@ -21,6 +21,8 @@ ul,li{ padding:0; margin:0; list-style:none;}
 .clear:before,.clear:after{ content: " "; display: table;}
 .clear:after {clear: both;}
 .po_r{ position:relative !important;}
+.po_ab{ position:absolute !important;}
+.top0{ top:0;}
 .po_ab_l{ position:absolute !important; top:0; left:0;}
 .po_ab_r{ position:absolute !important; top:0; right:0}
 .block {display:block;}
@@ -86,8 +88,10 @@ ul,li{ padding:0; margin:0; list-style:none;}
 .mb20{ margin-bottom:20px!important;}
 .ml0{ margin-left:0px!important;}
 .ml5{ margin-left:5px!important;}
+.ml-5{ margin-left:-5px!important;}
 .ml8{ margin-left:8px!important;}
 .ml10{ margin-left:10px!important;}
+.ml-10{ margin-left:-10px!important;}
 .ml15{ margin-left:15px!important;}
 .ml20{ margin-left:20px!important;}
 .mr0{ margin-right:0px!important;}
