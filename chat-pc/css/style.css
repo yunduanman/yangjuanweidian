@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import "style.blue.css";
+html {
+    -webkit-text-size-adjust: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+img {
+    border: 0;
+    height: auto;
+    width: auto;
+}
+
+body {
+    font-family: "Microsoft Yahei", "冬青黑体简体中文 w3";
+}
+@media only screen and (min-width: 900px) {body{background: #efefef;}}
+@media only screen and (max-width: 900px) {body{background: #fff;}}
+@media (min-width: 768px){.content{width:100%;}}
+@media (min-width: 1000px){.content{width: 970px;}}
+@media (min-width: 1200px){.content{width: 1200px;}}
+
+.bg-white{background-color: #fff}
+a.gray {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+a.gray:hover, a.gray:focus {
+    color: #6c757d;
+    text-decoration: none;
+}
+.width1{
+    width: 1rem;
+}
+.width1d5{
+    width: 1.5rem;
+}
+.width2{
+    width: 2rem;
+}
+.width6{
+    width: 6rem;
+}
+.width7{
+    width: 7rem;
+}
+
+.bor-right-gray{
+    border-right: 1px solid #e9ecef;
+}
+.bor-circle1{
+    border-radius: 1rem;
+}
+.bor-circle2{
+    border-radius: 2rem;
+}
+.text-indent2{
+    text-indent:2rem
+}
+.transform-mark{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+}
+.transform-mark span{
+    display: block;
+    transform:rotate(-42deg);
+    -ms-transform:rotate(-42deg); 	/* IE 9 */
+    -moz-transform:rotate(-42deg); 	/* Firefox */
+    -webkit-transform:rotate(-42deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-42deg); 	/* Opera */
+    position: relative;
+    width: 6rem;
+    text-align: center;
+    left: -1.6rem;
+    top: 1rem;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.border-dashed{
+border: 1px dashed #eee;
+}
+.item-dashed{
+    border-bottom: 1px dashed #eee!important;
+}
+.square-width03{
+    width: 0.3rem;
+    height: 0.3rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+.line-height12{
+    height:1.2rem ;
+    line-height:1.2rem ;
+}
+.font-size-09{
+font-size: 0.9rem;
+}
+

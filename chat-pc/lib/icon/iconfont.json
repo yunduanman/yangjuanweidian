@@ -1,0 +1,30 @@
+{
+  "id": "1497917",
+  "name": "pc",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1121015",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "8776878",
+      "name": "download",
+      "font_class": "icon-test",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "8777370",
+      "name": "list",
+      "font_class": "icon-test1",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    }
+  ]
+}
